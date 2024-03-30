@@ -55,7 +55,7 @@ model = load_model('keras_model_LSTM.h5')
 
 # Testing data set
 past_100_days = data_training.tail(100)
-final_df = past_100_days.append(data_testing, ignore_index=True)
+final_df = pd.concat([past_100_days, data_testing], ignore_index=True, axis=0)
 input_data = scaler.fit_transform(final_df)
 
 x_test = []
