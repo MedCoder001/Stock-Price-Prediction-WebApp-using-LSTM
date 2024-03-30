@@ -19,7 +19,7 @@ I obtained the stock price data from Yahoo Finance using the `yfinance` library.
 ## Approaches
 
 1. Fetched historical stock price data for the specified stock ticker symbol and preprocessed it for training and testing the LSTM model, ensuring the data quality and consistency.
-2. Built and trained an LSTM model using historical stock price data, leveraging the power of deep learning to capture complex patterns and relationships in the data.
+2. Built and trained an LSTM model using historical stock price data, leveraging the power of LSTM to capture complex patterns and relationships in the data.
 3. Evaluated the trained model's performance using testing data and visualized the predictions compared to actual stock prices, providing users with valuable insights into the model's accuracy and reliability.
 4. The app is built using the Streamlit framework.
    
